@@ -1,0 +1,37 @@
+# 12-08-2019 (B_2.6.1 Test version) :
+# - add *playlists* to the -t option to show and update SPL push status 
+#
+#
+# 11-08-2019 (B_2.6.0) :
+#  - Possibility to enable / disable push config when you change it.
+#  - Possibility to run this script logged in as ROOT user disabled
+#  - Add -s (--show) option to print the push config
+#  - Add -f (--ftp) option to connect directly to the library filled for DCPs in push config
+#  - -u (--update_track) option changed to -t (or --track_update)
+#  - -i (--ip) option changed to -u (or --upload)
+#
+# 06-08-2019 (Patch B_2.5.2) :
+#  - Replace AWK command by Grep command to get the DCP UUIDs (didn't work with some ASSETMAPs written with the feet)
+#
+# 16-07-2019 / 27-07-2019 (B_2.5) :
+#  - List and Push playlists work also with C+regie (*%£# reversed dates)
+#  - Add -u (--update_track) to get and update DCP_UUIDs push status if needed
+#
+# 14-06-2019 (B_2.4) :
+#  - Add -m (--mtu) option to get the best mtu value for tun1 on receiver
+#
+# 22-05-2019 (B_2.3) :
+#  - Shared version 
+#
+# 22-05-2019 (B_2.3) :
+#  - Show limit bandwitdh config
+# 
+# 21-05-2019 (B_2.2) :
+#  - Push enabled for current and next playlists
+#  - Add --check option to print check logs in shell
+# 
+# 
+# 19-05-2019 (B_2.1) : 
+#  - FTP session for DCP and PLAYLIST configuration
+#  - Add check_nbp.sh in Check NBP configuration
+#  - Add test if distant PATHs exists for push config(S)
